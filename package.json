@@ -1,0 +1,23 @@
+{
+  "name": "inkwell",
+  "version": "1.0.0",
+  "description": "Inkwel is a web application that allows user to create, save and delete their notes. The application is built with Node.js, and Express. The application is deployed on Heroku.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleclair71/Inkwel.git"
+  },
+  "keywords": [],
+  "author": "Cassie LeClair",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cleclair71/Inkwel/issues"
+  },
+  "homepage": "https://github.com/cleclair71/Inkwel#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
