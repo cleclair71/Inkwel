@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const database = require('../db/database.js');
+const database = require('..//Develop/db/database.js');
 
 // API get request
 router.get('/notes', (req, res) => {
