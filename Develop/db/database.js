@@ -13,8 +13,8 @@ class saveData {
     write(note) {
         return writeNotes('db/db.json', JSON.stringify(note));
     }
-    getNotes() {
-        return this.read().then((notes) => {
+    async getNotes() {
+        const notes = await this.read();
         let parsedNotes;
         try {
             parsedNotes = [].concat(JSON.parse(notes));
@@ -22,23 +22,22 @@ class saveData {
             parsedNotes = [];
         }
         return parsedNotes;
-        });
     }
-    addNotes(note) {
+    async addNotes(note) {
         const { title, text } = note;
         if (!title || !text) {
         throw new Error('Note title and text cannot be blank');
         }
         const newNote = { title, text, id: uuidv4() };
-        return this.getNotes()
-        .then((notes) => [...notes, newNote])
-        .then((updatedNotes) => this.write(updatedNotes))
-        .then(() => newNote);
+        const notes = await this.getNotes();
+        const updatedNotes = [...notes, newNote];
+        await this.write(updatedNotes);
+        return newNote;
     }
-    removeNotes(id) {
-        return this.getNotes()
-        .then((notes) => notes.filter((note) => note.id !== id))
-        .then((filteredNotes) => this.write(filteredNotes));
+    async removeNotes(id) {
+        const notes = await this.getNotes();
+        const filteredNotes = notes.filter((note) => note.id !== id);
+        return await this.write(filteredNotes);
     }
 }
 
