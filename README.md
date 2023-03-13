@@ -4,7 +4,7 @@
  <div align="center">
  <h1 align="center">Inkwel</h1>
     <a href="https://github.com/cleclair71/CrewCard">
-     <img src="/assets/crewcardstacked1.jpg" alt="Logo" width="200" height="200">
+     <img src="/public/assets/img/inkwel.jpg" alt="Logo" width="200" height="200">
    </a>
     <p align="center">
       Capturing your thoughts, one note at a time
@@ -17,15 +17,11 @@
 
 * [Added Features](#features)
  
-* [Installation](#installation)
- 
 * [Usage](#usage) 
 
 * [Contributing](#contributing)
 
 * [Resources](#resources)
-
-* [Tests](#tests)
  
 * [license](#license)
 
@@ -39,7 +35,7 @@
 <a name="description"></a>
 ## :rocket: About The Project
 <p align="center">
-  <img src="assets\Capture.JPG"/>
+  <img src="/public/assets/img/capture.png"/>
 </p>
 
 Inkwel is a note-taking application designed to provide a user-friendly experience for organizing and managing notes. With Inkwel, users can quickly create and save notes, as well as view and edit existing notes with ease. The application uses Express.js to enable fast and efficient communication between the client-side and server-side.
@@ -59,49 +55,12 @@ Inkwel is a note-taking application designed to provide a user-friendly experien
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<a name="installation"></a>
-
-## :hammer_and_wrench: Installation
-
-1. Clone the repository 
-
-```bash
-git clone https://github.com/cleclair71/CrewCard.git
-```
-2. Change the Working Directory
-
-```bash
-cd CrewCard
-```
-3. Install [`inquirer`](https://www.npmjs.com/package/inquirer), [`axios`](https://www.npmjs.com/package/axios) and [`jest`](https://www.npmjs.com/package/jest)
-
-```bash
-npm install inquirer axios jest --save-dev
-```
-4. Run the App
-
-```bash
-\CrewCard> node index.js
-```
-
-This will start the application and prompt you to answer the required prompts in the command line. 
-
-After answering all the prompts, your index.html file will be generated and saved in the dist folder. 
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
   <a name="usage"></a>
 
 ## :computer: Usage
 
-<div align="center">
-     <img src="assets\app.gif">
-   </div>
-   <br />
-   <p align="center"> 
-   <a href="https://drive.google.com/file/d/1oZJElx4QXzcGZlfQwMoUEVd9D6Ld_YKO/view?usp=sharing">Walk Through Video</a>
-   </p>
+* [Deployed Website](https://inkwel.herokuapp.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
   
@@ -134,30 +93,6 @@ git push origin your-branch-name
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<a name="tests"></a>
-
-## :heavy_check_mark: Tests
-
-### Material
-
-Tests are run with [JEST](https://jestjs.io/)
-
-### How to Run the Tests
-
-* Setup the Environment
-
-```
-cd \CrewCard
-```
-
-* Run Tests
-
-```
-npm run test
-```
-
-  
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <a name="license"></a>
 
@@ -169,21 +104,13 @@ MIT
 <a name="resources"></a>
 ## :mag_right: Resources
 
-* [Google Fonts](https://fonts.google.com/)
-* [Sticky Navbar](https://bootstrapious.com/p/bootstrap-sticky-navbar)
-* [Footer](https://mdbootstrap.com/docs/standard/navigation/footer/)
-* [Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
-* [How To Create Interactive Command-line Prompts with Inquirer.js](https://www.digitalocean.com/community/tutorials/nodejs-interactive-command-line-prompts)
-* [Icons created by Paul J.](https://www.flaticon.com/free-icons/programmer)
-* [onerror](https://www.w3schools.com/jsref/event_onerror.asp)
-* [Collapse](https://getbootstrap.com/docs/4.1/components/collapse/)
-* [Overwrite a File with node.js](https://stackoverflow.com/questions/43892482/whats-the-best-way-to-overwrite-a-file-using-fs-in-node-js)
-* [Axios](https://kapeli.com/cheat_sheets/Axios.docset/Contents/Resources/Documents/index)
-* [github API](https://api.github.com/users/cleclair71)
+* [Express.js](https://expressjs.com/)
+* [uuid](https://www.npmjs.com/package/uuidv4)
+* [Heroku](https://devcenter.heroku.com/categories/reference)
 * [Canva](https://www.canva.com/)
-* [Everything you should know about ‘module’ & ‘require’ in Node.js](https://www.freecodecamp.org/news/require-module-in-node-js-everything-about-module-require-ccccd3ad383/)
+* [How To Create a Web Server in Node.js with the HTTP Module](https://www.digitalocean.com/community/tutorials/how-to-create-a-web-server-in-node-js-with-the-http-module)
 * [break](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break)
-* [How to Format and Validate in node js](https://stackoverflow.com/questions/52456065/how-to-format-and-validate-email-node-js)
+* [Node.js util.promisify() Method](https://www.geeksforgeeks.org/node-js-util-promisify-method/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
