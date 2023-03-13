@@ -60,7 +60,7 @@ Inkwel is a note-taking application designed to provide a user-friendly experien
 
 ## :computer: Usage
 
-* [Deployed Website](https://inkwel.herokuapp.com/)
+* [Deployed Website](https://secret-lake-87319.herokuapp.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
   
