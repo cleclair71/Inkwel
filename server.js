@@ -6,8 +6,8 @@ const app = express();
 
 
 // server to route
-const routeAPI = require('./routes/routeAPI.js');
-const routeHTML = require('./routes/routeHTML.js');
+const routeAPI = require('.//routes/routeAPI.js');
+const routeHTML = require('.//routes/routeHTML.js');
 
 // Set Port
 const PORT = process.env.PORT || 3001;
