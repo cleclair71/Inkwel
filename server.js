@@ -1,20 +1,18 @@
 // Dependencies
 const express = require('express');
 
-// Create Server
-const app = express();
-
-
 // server to route
 const routeAPI = require('./routes/routeAPI.js');
 const routeHTML = require('./routes/routeHTML.js');
-
+// Create Server
+const app = express();
 // Set Port
 const PORT = process.env.PORT || 3001;
-// Incoming array/string
-app.use(express.urlencoded({ extended: true }));
 // incoming json
 app.use(express.json());
+
+// Incoming array/string
+app.use(express.urlencoded({ extended: true }));
 // Static files
 app.use(express.static('public'));
 
