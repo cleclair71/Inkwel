@@ -4,7 +4,7 @@
  <div align="center">
  <h1 align="center">Inkwel</h1>
     <a href="https://github.com/cleclair71/CrewCard">
-     <img src="/public/assets/img/inkwel.jpg" alt="Logo" width="200" height="200">
+     <img src="/public/assets/img/inkwel.jpg" alt="Logo" height="200">
    </a>
     <p align="center">
       Capturing your thoughts, one note at a time
