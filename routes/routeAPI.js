@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const database = require('..//Develop/db/database.js');
+const database = require('../db/database.js');
 
 // API get request
 router.get('/notes', (req, res) => {
@@ -8,9 +8,10 @@ router.get('/notes', (req, res) => {
         .getNotes()
         .then((notes) => res.json(notes))
         .catch((err) => res.status(500).json(err));
+        console.log("getNotes");
 });
 // API post request
-router.post('/api/notes', (req, res) => {
+router.post('/notes', (req, res) => {
     database
         .addNotes(req.body)
         .then((note) => res.json(note))
