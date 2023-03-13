@@ -7,7 +7,7 @@
      <img src="/assets/crewcardstacked1.jpg" alt="Logo" width="200" height="200">
    </a>
     <p align="center">
-      Teamwork made easy with our input generated CLI crew cards!
+      Capturing your thoughts, one note at a time
     </p>
   
 <br />
@@ -42,21 +42,20 @@
   <img src="assets\Capture.JPG"/>
 </p>
 
-Introducing our command-line application designed to help managers generate a webpage that displays their team's basic information, such as their email addresses and GitHub profiles. This allows for quick and easy access to important team member information. The webpage is nicely formatted and based on the user input. When you click on an email address in the webpage, your default email program will open and populate the TO field with the email address. Additionally, when you click on a team member's GitHub username, the application will open that GitHub profile in a new tab.
+Inkwel is a note-taking application designed to provide a user-friendly experience for organizing and managing notes. With Inkwel, users can quickly create and save notes, as well as view and edit existing notes with ease. The application uses Express.js to enable fast and efficient communication between the client-side and server-side.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <a name="features"></a>
 
-## :star: Added Features
+## :star: Features
 
- - Collapsible cards at a click of a button
- - Avatar api fetch with axios
- - Fully Responsive cards
- - Link to an alert that prompts you create a new team
- - Default photo is there if an api error or the user doesn't have a github profile
- - Role specific icons and cover photos
+ - A landing page with a link to the notes page
+ - A notes page with existing notes listed in the left-hand column, and empty fields to enter a new note title and the note's text in the right-hand column
+ - A Save icon that appears in the navigation at the top of the page when a new note title and the note's text are entered
+ - The ability to click on an existing note in the list in the left-hand column to view it in the right-hand column
+ - The ability to click on the Write icon in the navigation at the top of the page to enter a new note title and the note's text in the right-hand column
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
